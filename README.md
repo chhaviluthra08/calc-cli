@@ -10,7 +10,7 @@ A custom cli tool which allows users to perform calculators using command line i
 1. Fork this repository.
 2. Clone the forked repository using 
    ``` bash
-   git clone "link"
+   git clone ["link"](https://github.com/your-username/calc-cli.git)
    ```
 3. Install dependencies in the root folder
 4. To make it run globally (Optional) use
