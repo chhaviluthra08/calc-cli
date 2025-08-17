@@ -20,7 +20,7 @@ yargs(hideBin(process.argv))
          .positional("b", { describe: "second number", type: "number" })
   },
   (argv) => {                            // handler
-    console.log(chalk.blue(sum(argv.a, argv.b)));
+    console.log(chalk.bold.magenta("Sum of ",argv.a," and ",argv.b," is : ", sum(argv.a, argv.b)));
   }
 )
 .command(
@@ -31,7 +31,7 @@ yargs(hideBin(process.argv))
          .positional("b", { describe: "second number", type: "number" })
   },
   (argv) => {                            // handler
-    console.log(chalk.blue(divide(argv.a, argv.b)));
+    console.log(chalk.bold.magenta(argv.a, " divided by ", argv.b, " is : ",divide(argv.a, argv.b)));
   }
 )
 
@@ -43,7 +43,7 @@ yargs(hideBin(process.argv))
          .positional("b", { describe: "second number", type: "number" })
   },
   (argv) => {                            // handler
-    console.log(chalk.blue(multiply(argv.a, argv.b)));
+    console.log(chalk.bold.magenta(argv.a," multiplied by ",argv.b, " is : ", multiply(argv.a, argv.b)));
   }
 )
 
@@ -55,7 +55,7 @@ yargs(hideBin(process.argv))
          .positional("b", { describe: "second number", type: "number" })
   },
   (argv) => {                            // handler
-    console.log(chalk.blue(subtract(argv.a, argv.b)));
+    console.log(chalk.bold.magenta(argv.a," subtracted by ",argv.b, " is : ",subtract(argv.a, argv.b)));
   }
 )
 .demandCommand(0, "")
