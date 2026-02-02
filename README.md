@@ -6,10 +6,6 @@ A custom cli tool which allows users to perform calculators using command line i
 2. figlet 
 3. yargs
 
-## Tech Stack  
-1. node.js
-2. express
-
 ## Steps to run this locally
 1. Fork this repository.
 2. Clone the forked repository using 
@@ -26,3 +22,5 @@ A custom cli tool which allows users to perform calculators using command line i
    calc
    ```
    to get started...
+
+> Built with Node.js
