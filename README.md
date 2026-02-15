@@ -1,4 +1,4 @@
-# C Calculator Tool
+# CLI Calculator Tool
 A custom cli tool which allows users to perform calculators using command line interface.
 
 ## Packages Used: 
