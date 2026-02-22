@@ -6,7 +6,7 @@ A custom cli tool which allows users to perform calculators using command line i
 2. figlet 
 3. yargs
 
-## Steps to run this locally
+## Steps to run this locally 
 1. Fork this repository.
 2. Clone the forked repository using 
    ``` bash
